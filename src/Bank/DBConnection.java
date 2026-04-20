@@ -5,14 +5,17 @@ import java.sql.DriverManager;
 
 public class DBConnection {
 
-    private static final String URL = "jdbc:mysql.cj.DriverManager://localhost:3306/blood_bank?useSSL=false";
+    // Corrected the URL protocol
+    private static final String URL = "jdbc:mysql://localhost:3306/blood_bank?useSSL=false&allowPublicKeyRetrieval=true";
 
     private static final String USER = "root";
     private static final String PASS = "password";
 
     public static Connection connect() {
         try {
-            Class.forName("org.mysql.cj.jdbc.Driver");
+            // Corrected the Driver class path
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            
             Connection con = DriverManager.getConnection(URL, USER, PASS);
             System.out.println("✅ Database connected successfully");
             return con;
