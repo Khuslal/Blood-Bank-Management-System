@@ -56,7 +56,7 @@ The project follows a standard Java workspace layout:
 
 - Frontend: Java Swing / AWT
 - Backend: Core Java
-- Database: File handling and optional JDBC (MySQL/Mariadb) integration
+- Database: File handling and optional JDBC (MySQL) integration
 
 
 
