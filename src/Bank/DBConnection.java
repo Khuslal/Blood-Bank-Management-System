@@ -5,15 +5,14 @@ import java.sql.DriverManager;
 
 public class DBConnection {
 
-    private static final String URL =
-            "jdbc:mariadb://localhost:3306/blood_bank?useSSL=false";
+    private static final String URL = "jdbc:mysql.cj.DriverManager://localhost:3306/blood_bank?useSSL=false";
 
-    private static final String USER = "root";     
-    private static final String PASS = "password";         
+    private static final String USER = "root";
+    private static final String PASS = "password";
 
     public static Connection connect() {
         try {
-            Class.forName("org.mariadb.jdbc.Driver");
+            Class.forName("org.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection(URL, USER, PASS);
             System.out.println("✅ Database connected successfully");
             return con;
