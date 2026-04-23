@@ -1,13 +1,10 @@
-Title :
-Blood Bank Management System
+**Blood Bank Management System**
 
 A robust desktop application built with Core Java using awt, and swing GUI to streamline blood bank operations, tracking donor, and emergency blood group searching.
 
 
-
 📖 Project Overview
 The Blood Bank Management Portal replaces manual record-keeping with a centralized digital solution. Administrators can manage donor records, monitor real-time blood stock, and handle recipient requests more efficiently — especially during emergencies when quick access to matching donors and available units matters most.
-
 
 
 🌟 Key Features
@@ -17,7 +14,6 @@ The Blood Bank Management Portal replaces manual record-keeping with a centraliz
 - Quick Search: Filter donors instantly by location or blood group for emergencies.
 - Admin Security: Login system to protect sensitive medical and donor data.
 - Modern GUI: Clean, user-friendly interface built using Java Swing and AWT.
-
 
 
 📂 Repository Structure
@@ -33,7 +29,6 @@ The project follows a standard Java workspace layout:
 | .vscode   | Visual Studio Code workspace settings and launch configurations  |
 
 
-
 🚀 How to Run
 
 1. Install the Java Development Kit (JDK).
@@ -44,18 +39,13 @@ The project follows a standard Java workspace layout:
    - If using command line: compile with `javac` and run with `java`, or use your build/run scripts.
 
 
-
 🧰 Technical Stack
 
 - Frontend: Java Swing / AWT
 - Backend: Core Java
 - Database: File handling and optional JDBC (MySQL) integration
 
-
-
-## Screenshots
-
-
+# Screenshot
 <p align="center">
   <b>Landing Page</b><br>
   <img src="landingpage.png" alt="Landing Page" width="800">
